@@ -1,26 +1,27 @@
-
 body {
   padding: 30px;
 }
 
 section {
-  max-width: 60%;
   display: flex;
 }
 
 h1 {
   margin: 0;
-  font-size: 30px;
   font-family: sans-serif;
   text-transform: uppercase;
+  font-size: 24px;
 }
 
-aside {
-  margin-left: 24px;
+figure {
+  margin-block-start: 24px;
+  margin-block-end: 24px;
+  margin-inline-start: 24px;
+  margin-inline-end: 24px;
 }
 
 img {
-  max-width: 200px;
+  max-width: 124px;
   border: 1px solid black;
 }
 
@@ -35,4 +36,25 @@ figcaption {
 
 #label-container {
   margin-top: 12px;
+}
+
+@media (min-width: 1281px) {
+  h1 {
+    font-size: 30px;
+  }
+  section {
+    max-width: 60%;
+    display: flex;
+  }
+
+  figure {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+  }
+
+  img {
+    max-width: 200px;
+  }
 }
