@@ -42,19 +42,38 @@ figcaption {
   h1 {
     font-size: 30px;
   }
+
   section {
-    max-width: 60%;
+    max-width: 100%;
     display: flex;
   }
 
   figure {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
   }
 
+  figcaption {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  p {
+    max-width: 70%;
+  }
   img {
-    max-width: 200px;
+    max-width: 250px;
+  }
+
+  aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  canvas {
+    width: 300px;
+    border: 1px solid black;
   }
 }
